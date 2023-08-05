@@ -1,0 +1,77 @@
+
+header{
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+body{
+
+    background-image: url(Imagens/fuundodestino.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.galeria_conteiner{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+gap: 2vw;
+padding: 0 1vw;
+margin-top: 30px;
+font-family: 'Calibri, Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+
+
+
+}
+ .galeria_lugares{
+width: 200px;
+height: 180px;
+border: 5px solid white;
+box-shadow: 5px 5px 5px #0006;
+object-fit: cover;
+background-color: white;
+ }
+
+ .galeria_lugares img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+
+ }
+
+ .galeria_lugares:hover{
+    transform: scale(1.3);
+    text-decoration: none;
+ }
+ 
+ footer{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 33px;
+ }
+
+
+.texto-h2{
+    
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Calibri, Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+}
+
+.legenda{
+    text-align: center;
+    
+
+
+}
+

@@ -1,0 +1,101 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+
+}
+body{
+
+    background-image: url(Imagens/elevador_lacerda.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.main{
+width: 100%;
+height: 700px;
+margin: alto;
+border: 1px solid blue;
+
+
+}
+
+.cabecalho{
+width: 100%;
+height: 150px;
+font-family: 'Calibri, Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+padding-top:30px ;
+text-align: center;
+color: rgb(235, 229, 226);
+
+}
+
+h1{
+
+    text-shadow: 3px 2px 1px #000;
+
+
+}
+
+.corpo{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    border: 1px sodid blue;
+}
+
+
+
+.menu{
+    height: 5%;
+    margin: auto;
+    border: 1px sodid blue;
+    font-family: 'Calibri, Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    flex-direction: column;
+    display: flex;  
+    gap: 50px;
+    margin-bottom: 300px;
+    text-align: center;
+    
+
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(235, 229, 226);
+
+
+}
+
+.botao{
+
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid cornflowerblue;
+
+
+}
+
+a.botao:hover{
+
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(238, 239, 241);
+    text-shadow: 1px 1px 1px #000;
+    
+}
+
+.rodape{
+    text-align: center;
+    margin-top: 180px;
+    
+}

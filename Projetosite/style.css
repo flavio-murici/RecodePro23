@@ -1,0 +1,112 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+
+body{
+
+    background-image: url(Imagens/fuundodestino.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.galeria_conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+    margin-top: 30px;
+    text-decoration: none;
+    
+}
+
+.formulario1{
+    width: 40%;
+   margin: auto;
+   margin-top: 40px;
+   
+
+}
+
+
+.contato_container{
+margin: auto;
+text-align: center;
+
+}
+
+.rodape{
+    text-align: center;
+    margin-top: 180px;
+    
+}
+
+.principal{
+
+display: flex;
+flex-direction: row;
+margin-top: 15px;
+margin: auto;
+
+}
+
+.combo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px ;
+    text-align: center;
+    font-family: 'Calibri, Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    
+}
+
+.h4{
+
+    font-family: 'Calibri, Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+}
+
+.nome{
+background-color: white;
+width: 260px;
+height: 230px;
+text-align: center;
+padding-top: 5px;
+box-shadow: 5px 5px 5px #0006;
+}
+
+
+.pagamento{
+
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    text-align: end;
+   
+    
+
+}
+
+
+@media (max-width: 700px){
+    .principal {
+        
+        flex-direction: column;
+    }
+.main{
+
+flex-direction: column;
+
+}
+.combo{
+
+    flex-direction: column;
+}
+}
